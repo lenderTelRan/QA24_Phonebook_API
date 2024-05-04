@@ -17,8 +17,8 @@ public class LoginTestsOkhttp {
     @Test
     public void loginSuccess() throws IOException {
         AuthRequestDTO auth = AuthRequestDTO.builder()
-                .username("mara@gmail.com")
-                .password("Mmar123456$")
+                .username("test_telran@gmail.com")
+                .password("Test@12345")
                 .build();
         RequestBody body = RequestBody.create(gson.toJson(auth),JSON);
         Request request = new Request.Builder()

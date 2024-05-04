@@ -35,7 +35,7 @@ public class GetAllContactsTestsOkhttp {
 
         List<ContactDTO> contacts = contactsDTO.getContacts();
         for(ContactDTO contact : contacts) {
-            System.out.println(contact.getId());
+            System.out.println("Contact ID: " + contact.getId());
         }
     }
 
